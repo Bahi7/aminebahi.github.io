@@ -1,62 +1,176 @@
 # -----------------------------------------------------------------------------
-# Site settings – personalised for Amine Bahi (updated)
+# Site settings – personalised for Amine Bahi (updated)
 # -----------------------------------------------------------------------------
 
-  title: "Amine Bahi"                # shown in browser tab & search engines
-  first_name: Amine
-  middle_name:
-  last_name: Bahi
-  contact_note: >
-    Best contact : amine.bahi@rabiata.com · open to research, consulting & collaboration.
-    Co‑founder & CTO at <strong>Rabiata</strong>.
+title: "Amine Bahi"                # shown in browser tab & search engines
+first_name: Amine
+middle_name:
+last_name: Bahi
+contact_note: >
+  Best contact : amine.bahi@rabiata.com · open to research, consulting & collaboration.
+  Co‑founder & CTO at <strong>Rabiata</strong>.
+
+description: >
+  PhD researcher in cryptography with the <strong>CASCADE team</strong> at École normale supérieure (ENS, Paris) 
+  and member of the <strong>Encrypted Systems Lab</strong>, Brown University, mentored by Tarik Moataz and Brice Minaud.  
+  Interests : structured encryption, PIR / ORAM, volume‑hiding systems, Bayesian leakage analysis, quantitative trading.
+
+footer_text: >
+  © 2025 Amine Bahi · Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> &
+  <a href="https://github.com/alshedivat/al-folio" target="_blank">al‑folio</a> · Hosted on GitHub Pages.
+
+keywords: cryptography, structured encryption, PIR, ORAM, volume‑hiding, quantitative trading
+lang: en                     # set fr if primary audience is French
+icon: "🔐"
+
+url: "https://aminebahi.github.io"
+baseurl: ""
+last_updated: true
+back_to_top: true
+
+# -----------------------------------------------------------------------------
+# Theme tweaks (Tarik‑style palette)
+# -----------------------------------------------------------------------------
+repo_theme_light: "dark"
+repo_theme_dark: "midnight"
+# theme_color: "#0e74ff"   # uncomment if you add SCSS override
+
+# -----------------------------------------------------------------------------
+# Social & analytics
+# -----------------------------------------------------------------------------
+email: "amine.bahi@ens.psl.eu"
+social_links:
+  github: Bahi7
+  # replace with real Google Scholar ID
+  orcid: https://orcid.org/0009-0009-6435-1719  # replace with your ORCID iD
+  dblp: b/AmineBahi           # DBLP pid (edit if different)
+  linkedin: amine-bahi
+  twitter: crypt0amine
+
+enable_google_analytics: false
+google_analytics: ""
+
+# -----------------------------------------------------------------------------
+# Math & syntax highlighting
+# -----------------------------------------------------------------------------
+enable_math: true
+highlighter: rouge
+
+# -----------------------------------------------------------------------------
+# (Other config sections remain default from al‑folio template)
+# -----------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------
+# Jekyll configuration
+# -----------------------------------------------------------------------------
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+input: GFM
+syntax_highlighter: rouge
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  parse_block_html: true
+
+# Pagination
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ':title'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
   
-  description: >
-    PhD researcher in cryptography with the <strong>CASCADE team</strong> at École normale supérieure (ENS, Paris) 
-    and member of the <strong>Encrypted Systems Lab</strong>, Brown University, mentored by Tarik Moataz and Brice Minaud.  
-    Interests : structured encryption, PIR / ORAM, volume‑hiding systems, Bayesian leakage analysis, quantitative trading.
+# Jekyll Scholar
+scholar:
+  last_name: [Bahi]
+  first_name: [Amine]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  reference_tagname: div
   
-  footer_text: >
-    © 2025 Amine Bahi · Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> &
-    <a href="https://github.com/alshedivat/al-folio" target="_blank">al‑folio</a> · Hosted on GitHub Pages.
-  
-  keywords: cryptography, structured encryption, PIR, ORAM, volume‑hiding, quantitative trading
-  lang: en                     # set fr if primary audience is French
-  icon: "🔐"
-  
-  url: "https://aminebahi.com"
-  baseurl: ""
-  last_updated: true
-  back_to_top: true
-  
-  # -----------------------------------------------------------------------------
-  # Theme tweaks (Tarik‑style palette)
-  # -----------------------------------------------------------------------------
-  repo_theme_light: "dark"
-  repo_theme_dark: "midnight"
-  # theme_color: "#0e74ff"   # uncomment if you add SCSS override
-  
-  # -----------------------------------------------------------------------------
-  # Social & analytics
-  # -----------------------------------------------------------------------------
-  email: "amine.bahi@ens.psl.eu"
-  social_links:
-    github: Bahi7
-       # replace with real Google Scholar ID
-    orcid: https://orcid.org/0009-0009-6435-1719  # replace with your ORCID iD
-    dblp: b/AmineBahi           # DBLP pid (edit if different)
-    linkedin: amine-bahi
-    twitter: crypt0amine
-  
-  enable_google_analytics: false
-  google_analytics: ""
-  
-  # -----------------------------------------------------------------------------
-  # Math & syntax highlighting
-  # -----------------------------------------------------------------------------
-  enable_math: true
-  highlighter: rouge
-  
-  # -----------------------------------------------------------------------------
-  # (Other config sections remain default from al‑folio template)
-  # -----------------------------------------------------------------------------
+# Jekyll-Minifier
+jekyll-minifier:
+  exclude: ['robots.txt']
+  uglifier_args:
+    harmony: true
+
+# Jekyll Archives
+jekyll-archives:
+  enabled: [year, categories, tags]
+  layouts:
+    category: archive
+    tag: archive
+    year: archive
+  permalinks:
+    category: '/blog/category/:name/'
+    tag: '/blog/tag/:name/'
+    year: '/blog/:year/'
+
+# Display different badges
+enable_tooltips: true
+enable_google_verification: false
+enable_masonry: true
+enable_medium_zoom: true
+enable_progressbar: true
+
+# Library versions
+bootstrap-table:
+  version: "1.22.1"
+katex:
+  version: "0.16.10"
+  integrity:
+    css: "sha256-JjVfEfOwrZ/k3KrDYqQZAAYmnULg6i5WMBF6gMZtqNw="
+    js: "sha256-OEIJL4DiRqhKh+wNS6QiXcaGlLTH2W/KqSYJ8qrLGlA="
+    autoRender: "sha256-+VBxuaq2R47VJGk2QjQLS2E3J9sZXzl9CMGV14TN8uo="
+    mhChem: "sha256-o3+yVqPJEFBpEnz5rKoYqmcJHzVbLRPt9PvJiI7Y6/8="
+mathjax:
+  version: "3.2.2"
+  integrity:
+    es5: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
+mermaid:
+  version: "10.7.0"
+  integrity:
+    js: "sha256-TtLOdUA8mstPoO6sGvHIGx2ceXrrX4KgIItO06XOn8A="
+purgecss:
+  version: "6.0.0"
+
+# Optional features
+enable_google_analytics: false
+enable_cronitor_analytics: false
+enable_google_verification: false
+enable_bing_verification: false
+enable_mastodon_verification: false
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/prof_pic.jpg
   
