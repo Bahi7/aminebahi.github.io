@@ -46,3 +46,13 @@ highlighter: rouge
 scholar:
   source: _bibliography
   bibliography: papers.bib
+
+# Minification
+minifier:
+  remove_spaces_inside_tags: true
+  remove_multi_spaces: true
+  remove_comments: true
+  compress_css: true
+  compress_javascript: true
+  uglifier_args:
+    harmony: true
