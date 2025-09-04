@@ -1,6 +1,8 @@
 name: Build & Deploy al-folio
 on:
-  push: { branches: ["main"] }
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -30,10 +32,12 @@ jobs:
           bundle install --jobs 4 --retry 3
           npm ci || npm install
       - name: Build site
-        env: { JEKYLL_ENV: production }
+        env:
+          JEKYLL_ENV: production
         run: bundle exec jekyll build --trace --destination _site
       - uses: actions/upload-pages-artifact@v3
-        with: { path: _site }
+        with:
+          path: _site
   deploy:
     environment:
       name: github-pages

@@ -167,7 +167,9 @@ Jekyll::Hooks.register :site, :after_init do |site|
   end
 
   # replace {{version}} with the version number in all 3rd party libraries urls
-  site.config['third_party_libraries'].each do |key, value|
+  third_party = site.config['third_party_libraries']
+  if third_party && third_party.respond_to?(:each)
+  third_party.each do |key, value|
     if key != 'download'
       value['url'].each do |type, url|
         # check if url is a dictionary
@@ -187,10 +189,11 @@ Jekyll::Hooks.register :site, :after_init do |site|
       end
     end
   end
+  end
 
   # download 3rd party libraries if required
-  if site.config['third_party_libraries']['download']
-    site.config['third_party_libraries'].each do |key, value|
+  if third_party && third_party.is_a?(Hash) && third_party['download']
+    third_party.each do |key, value|
       if key != 'download'
         value['url'].each do |type, url|
           # check if url is a dictionary
