@@ -1,62 +1,42 @@
 # -----------------------------------------------------------------------------
-# Site settings – personalised for Amine Bahi (updated)
+# Site settings – Amine Bahi
 # -----------------------------------------------------------------------------
+title: "Amine Bahi"
+first_name: Amine
+middle_name:
+last_name: Bahi
 
-  title: "Amine Bahi"                # shown in browser tab & search engines
-  first_name: Amine
-  middle_name:
-  last_name: Bahi
-  contact_note: >
-    Best contact : amine.bahi@rabiata.com · open to research, consulting & collaboration.
-    Co‑founder & CTO at <strong>Rabiata</strong>.
-  
-  description: >
-    PhD researcher in cryptography with the <strong>CASCADE team</strong> at École normale supérieure (ENS, Paris) 
-    and member of the <strong>Encrypted Systems Lab</strong>, Brown University, mentored by Tarik Moataz and Brice Minaud.  
-    Interests : structured encryption, PIR / ORAM, volume‑hiding systems, Bayesian leakage analysis, quantitative trading.
-  
-  footer_text: >
-    © 2025 Amine Bahi · Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> &
-    <a href="https://github.com/alshedivat/al-folio" target="_blank">al‑folio</a> · Hosted on GitHub Pages.
-  
-  keywords: cryptography, structured encryption, PIR, ORAM, volume‑hiding, quantitative trading
-  lang: en                     # set fr if primary audience is French
-  icon: "🔐"
-  
-  url: "https://aminebahi.com"
-  baseurl: ""
-  last_updated: true
-  back_to_top: true
-  
-  # -----------------------------------------------------------------------------
-  # Theme tweaks (Tarik‑style palette)
-  # -----------------------------------------------------------------------------
-  repo_theme_light: "dark"
-  repo_theme_dark: "midnight"
-  # theme_color: "#0e74ff"   # uncomment if you add SCSS override
-  
-  # -----------------------------------------------------------------------------
-  # Social & analytics
-  # -----------------------------------------------------------------------------
-  email: "amine.bahi@ens.psl.eu"
-  social_links:
-    github: Bahi7
-       # replace with real Google Scholar ID
-    orcid: https://orcid.org/0009-0009-6435-1719  # replace with your ORCID iD
-    dblp: b/AmineBahi           # DBLP pid (edit if different)
-    linkedin: amine-bahi
-    twitter: crypt0amine
-  
-  enable_google_analytics: false
-  google_analytics: ""
-  
-  # -----------------------------------------------------------------------------
-  # Math & syntax highlighting
-  # -----------------------------------------------------------------------------
-  enable_math: true
-  highlighter: rouge
-  
-  # -----------------------------------------------------------------------------
-  # (Other config sections remain default from al‑folio template)
-  # -----------------------------------------------------------------------------
-  
+contact_note: >
+  Best contact: amine.bahi@rabiata.com. Open to research, consulting, collaboration.
+  Co-founder & CTO at Rabiata.
+
+description: >
+  PhD researcher in cryptography with the CASCADE team at École normale supérieure (ENS, Paris)
+  and member of the Encrypted Systems Lab, Brown University.
+  Interests: structured encryption, PIR/ORAM, volume-hiding systems, Bayesian leakage analysis, quantitative trading.
+
+footer_text: >
+  © 2025 Amine Bahi · Built with Jekyll & al-folio · Hosted on GitHub Pages.
+
+keywords: cryptography, structured encryption, PIR, ORAM, volume-hiding, quantitative trading
+lang: en
+icon: "🔐"
+
+# Use this until your custom domain works in Settings → Pages
+url: "https://aminebahi.github.io"
+baseurl: ""
+
+last_updated: true
+back_to_top: true
+
+# Theme tweaks (optional; safe defaults)
+repo_theme_light: "dark"
+repo_theme_dark: "midnight"
+
+# Social & analytics are configured in _data/socials.yml (see next step)
+enable_google_analytics: false
+google_analytics: ""
+
+# Math & syntax
+enable_math: true
+highlighter: rouge
