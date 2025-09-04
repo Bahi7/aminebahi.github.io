@@ -32,6 +32,7 @@ back_to_top: true
 # Theme tweaks (optional; safe defaults)
 repo_theme_light: "dark"
 repo_theme_dark: "midnight"
+max_width: "1000px"
 
 # Social & analytics are configured in _data/socials.yml (see next step)
 enable_google_analytics: false
