@@ -40,3 +40,8 @@ google_analytics: ""
 # Math & syntax
 enable_math: true
 highlighter: rouge
+
+# Jekyll Scholar
+scholar:
+  source: _bibliography
+  bibliography: papers.bib
