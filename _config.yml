@@ -23,8 +23,8 @@ lang: en
 icon: "🔐"
 
 # Use this until your custom domain works in Settings → Pages
-url: "https://aminebahi.github.io"
-baseurl: ""
+url: "https://<your-username>.github.io"
+baseurl: "/aminebahi.github.io"
 
 last_updated: true
 back_to_top: true
