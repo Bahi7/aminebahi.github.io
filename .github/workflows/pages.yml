@@ -1,24 +1,39 @@
-name: Deploy Jekyll with GitHub Pages
+name: Build & Deploy al-folio
 on:
   push: { branches: ["main"] }
   workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 concurrency:
   group: "pages"
   cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/jekyll-build-pages@v1
+      - uses: ruby/setup-ruby@v1
         with:
-          source: ./
-          destination: ./_site
+          ruby-version: '3.2'
+          bundler-cache: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install deps
+        run: |
+          bundle config set without 'development'
+          bundle install --jobs 4 --retry 3
+          npm ci || npm install
+      - name: Build site
+        env: { JEKYLL_ENV: production }
+        run: bundle exec jekyll build --trace --destination _site
       - uses: actions/upload-pages-artifact@v3
+        with: { path: _site }
   deploy:
     environment:
       name: github-pages
