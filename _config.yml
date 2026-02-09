@@ -40,7 +40,7 @@ google_analytics: ""
 
 # Math & syntax
 enable_math: true
-highlighter: rouge 
+highlighter: rouge
 
 # Jekyll Scholar
 scholar:
