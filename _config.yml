@@ -22,9 +22,9 @@ keywords: cryptography, structured encryption, PIR, ORAM, volume-hiding, quantit
 lang: en
 icon: "🔐"
 
-# Use this until your custom domain works in Settings → Pages
-url: "https://bahi7.github.io"
-baseurl: "/aminebahi.github.io"
+# Use this until your custom domain works in Settings -> Pages
+url: "https://aminebahi.github.io"
+baseurl: "" # keep this empty for user sites (username.github.io)
 
 last_updated: true
 back_to_top: true
