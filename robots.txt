@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://Bahi7.github.io/aminebahi.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://Bahi7.github.io/sitemap.xml
