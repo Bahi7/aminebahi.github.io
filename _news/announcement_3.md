@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 date: 2024-11-08 12:00:00+01:00
 inline: true

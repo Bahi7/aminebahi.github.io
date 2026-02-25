@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: Privacy-Preserving Systems (Academic Collaborations)
 description: Selected research collaborations across ENS and Brown focused on privacy-preserving systems.

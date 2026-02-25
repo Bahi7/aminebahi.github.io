@@ -1,4 +1,4 @@
-﻿# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # Site settings - Amine Bahi
 # -----------------------------------------------------------------------------
 title: "Amine Bahi"
@@ -16,7 +16,7 @@ description: >
   Interests: structured encryption, PIR/ORAM, volume-hiding systems, Bayesian leakage analysis, quantitative trading.
 
 footer_text: >
-  Copyright 2026 Amine Bahi · Built with Jekyll & al-folio · Hosted on GitHub Pages.
+  Built with Jekyll & al-folio · Hosted on GitHub Pages.
 
 keywords: cryptography, structured encryption, PIR, ORAM, volume-hiding, quantitative trading
 lang: en
