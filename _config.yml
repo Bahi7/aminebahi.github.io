@@ -106,4 +106,5 @@ exclude:
   - .github
   - lighthouse_results
   - readme_preview
+  - assets/jupyter
   - ._config.yml.swp
