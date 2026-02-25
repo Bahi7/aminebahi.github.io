@@ -75,7 +75,7 @@
     {% when 'wechat_qr' %}
       <a id="WeChatBtn" title="WeChat"><i class="fa-brands fa-weixin"></i></a>
       <div id="WeChatMod" class="wechat-modal">
-        <img src="{{ social[1] | prepend: 'assets/img/' | relative_url }}" alt="WeChat QR" id="WeChatQR">
+        <img src="{{ social[1] | prepend: '/assets/img/' | relative_url }}" alt="WeChat QR" id="WeChatQR">
       </div>
       <script defer src="{{ '/assets/js/wechat.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
     {% when 'whatsapp_number' %}

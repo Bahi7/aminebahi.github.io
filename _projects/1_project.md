@@ -2,7 +2,7 @@
 layout: page
 title: Structured Encryption & Leakage Analysis
 description: Research direction in searchable/structured encryption and quantitative leakage analysis.
-img: assets/img/12.jpg
+img: /assets/img/12.jpg
 importance: 1
 category: research
 ---
