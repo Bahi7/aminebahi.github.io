@@ -43,6 +43,9 @@ enable_math: true
 highlighter: rouge
 markdown: kramdown
 
+include:
+  - _pages
+
 collections:
   news:
     output: true
