@@ -2,7 +2,7 @@
 layout: page
 title: Rabiata
 description: Startup and product engineering work as Co-founder & CTO.
-img: assets/img/7.jpg
+img: assets/img/rabiatalogo.png
 importance: 3
 category: startup
 ---
