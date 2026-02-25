@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2026-02-25 09:00:00+01:00
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Website updated and configured for the custom domain <a href="https://www.aminebahi.com">www.aminebahi.com</a>.

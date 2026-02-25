@@ -1,5 +1,5 @@
-# -----------------------------------------------------------------------------
-# Site settings – Amine Bahi
+﻿# -----------------------------------------------------------------------------
+# Site settings - Amine Bahi
 # -----------------------------------------------------------------------------
 title: "Amine Bahi"
 first_name: Amine
@@ -7,45 +7,87 @@ middle_name:
 last_name: Bahi
 
 contact_note: >
-  Best contact: amine.bahi@rabiata.com. Open to research, consulting, collaboration.
-  Co-founder & CTO at Rabiata.
+  Best contact: amine.bahi@rabiata.com (industry) or amine.bahi@ens.psl.eu (academic).
+  Open to research, consulting, and collaboration.
 
 description: >
-  PhD researcher in cryptography with the CASCADE team at École normale supérieure (ENS, Paris)
-  and member of the Encrypted Systems Lab, Brown University.
+  PhD researcher in cryptography with the CASCADE team at Ecole normale superieure (ENS, Paris)
+  and member of the Encrypted Systems Lab at Brown University.
   Interests: structured encryption, PIR/ORAM, volume-hiding systems, Bayesian leakage analysis, quantitative trading.
 
 footer_text: >
-  © 2025 Amine Bahi · Built with Jekyll & al-folio · Hosted on GitHub Pages.
+  Copyright 2026 Amine Bahi · Built with Jekyll & al-folio · Hosted on GitHub Pages.
 
 keywords: cryptography, structured encryption, PIR, ORAM, volume-hiding, quantitative trading
 lang: en
 icon: "🔐"
 
-# Use this until your custom domain works in Settings -> Pages
-url: "https://Bahi7.github.io"
-baseurl: "/aminebahi.github.io"
+url: "https://www.aminebahi.com"
+baseurl: ""
 
 last_updated: true
 back_to_top: true
-
-# Theme tweaks (optional; safe defaults)
-repo_theme_light: "dark"
-repo_theme_dark: "midnight"
 max_width: "1000px"
 
-# Social & analytics are configured in _data/socials.yml (see next step)
+repo_theme_light: "dark"
+repo_theme_dark: "midnight"
+
+enable_project_categories: true
+repo_trophies:
+  enabled: false
+
 enable_google_analytics: false
 google_analytics: ""
 
-# Math & syntax
 enable_math: true
 highlighter: rouge
+markdown: kramdown
+
+collections:
+  news:
+    output: true
+  projects:
+    output: true
+  books:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: post
+
+plugins:
+  - jekyll-archives-v2
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
+  - jekyll-scholar
+  - jekyll-sitemap
+  - jekyll-tabs
+  - jekyll-terser
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jemoji
 
 # Jekyll Scholar
 scholar:
   source: _bibliography
   bibliography: papers.bib
+  sort_by: year
+  order: descending
 
 # Minification
 minifier:
@@ -56,3 +98,12 @@ minifier:
   compress_javascript: true
   uglifier_args:
     harmony: true
+
+exclude:
+  - vendor
+  - node_modules
+  - .devcontainer
+  - .github
+  - lighthouse_results
+  - readme_preview
+  - ._config.yml.swp
