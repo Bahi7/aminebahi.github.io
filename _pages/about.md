@@ -9,7 +9,7 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic_color.png
+  image: GetoSuguru.png
   image_circular: false
   more_info: >
     <p>PhD Researcher in Cryptography</p>
