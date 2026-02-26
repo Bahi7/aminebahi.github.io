@@ -17,8 +17,8 @@
       institution: CASCADE team, Ecole normale superieure (ENS), Paris
       year: Current
       description:
-        - Structured encryption, PIR/ORAM, and volume-hiding systems.
-        - Bayesian leakage analysis and privacy-preserving systems.
+        - Structured encryption (STE) scheme design, PIR/ORAM, and volume-hiding systems.
+        - Privacy-preserving systems and proof-driven cryptographic design.
     - title: Member
       institution: Encrypted Systems Lab, Brown University
       year: Current
@@ -31,12 +31,12 @@
   contents:
     - title: Applied Cryptography
       items:
-        - Structured encryption
+        - Structured encryption (STE) scheme design
         - PIR / ORAM
         - Volume-hiding systems
     - title: Security and Systems
       items:
-        - Bayesian leakage analysis
+        - Security modeling and proof techniques
         - Privacy-preserving systems
         - Quantitative trading applications
 
@@ -50,4 +50,4 @@
     - name: DBLP
       value: dblp.org/pid/285/5616
     - name: LinkedIn
-      value: linkedin.com/in/amine-bahi
+      value: linkedin.com/in/amine-bahi-6ba572145/

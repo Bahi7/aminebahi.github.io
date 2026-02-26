@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-I’m happy to share that our paper “TIGRO: Trust Infrastructure for Grassroots Organizing via Grounded Digital Annotations” has been accepted to the Privacy Enhancing Technologies Symposium (PETS) 2026.
+I'm happy to share that our paper "TIGRO: Trust Infrastructure for Grassroots Organizing via Grounded Digital
+Annotations" has been accepted to the Privacy Enhancing Technologies Symposium (PETS) 2026.
