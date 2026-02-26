@@ -29,7 +29,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a PhD researcher in cryptography at ENS Paris (Inria CASCADE team) and a member of the Encrypted Systems Lab at Brown University. I am co-advised by ([https://www.tarikmoataz.com] Tarik Moataz) and  ([https://www.di.ens.fr/brice.minaud/]Brice Minaud).
+I am a PhD researcher in cryptography at ENS Paris (Inria CASCADE team) and a member of the Encrypted Systems Lab at Brown University. I am co-advised by [Tarik Moataz](https://www.tarikmoataz.com) and  [Brice Minaud](https://www.di.ens.fr/brice.minaud/).
 
 My research interests lie in applied cryptography and privacy-preserving systems, with a particular focus on structured encryption, PIR/ORAM, and volume-hiding encrypted systems. So far, my work has focused on designing and building cryptographic schemes with clear security guarantees, and I am interested in post-quantum security (PQS) and its implications for encrypted systems.
 
