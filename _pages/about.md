@@ -30,7 +30,7 @@ latest_posts:
 ---
 
 I am a PhD researcher in cryptography at ENS Paris (Inria CASCADE team) and a member of the Encrypted Systems Lab at
-Brown University. I am co-advised by [Tarik Moataz](https://www.tarikmoataz.com) and
+Brown University. I am co-advised by [Tarik Moataz](https://tarikmoataz.com) and
 [Brice Minaud](https://www.di.ens.fr/brice.minaud/).
 
 My research interests lie in applied cryptography and privacy-preserving systems, with a primary focus on structured
