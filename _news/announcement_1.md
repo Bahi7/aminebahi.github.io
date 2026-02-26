@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Website updated and configured for the custom domain <a href="https://www.aminebahi.com">www.aminebahi.com</a>.
+I’m excited to announce that our paper “Resizable ORAM” has been accepted to EUROCRYPT 2026
