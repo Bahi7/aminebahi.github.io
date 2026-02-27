@@ -2,17 +2,18 @@
 layout: page
 title: Structured Encryption Scheme Design
 description: Research direction in searchable/structured encryption and efficient scheme design.
-img: /assets/img/12.jpg
+img: /assets/img/ste_emm_architecture.jpg
 importance: 1
 category: research
 ---
+This project page summarizes my ongoing PhD research in applied cryptography, focused on **structured encryption (STE)**, **encrypted multi-maps**, and **volume-hiding** systems.
 
-This project page summarizes my ongoing PhD research interests in applied cryptography, including structured encryption, PIR/ORAM, and volume-hiding systems.
+Current work includes:
 
-Current focus areas include:
+* **Implementing and benchmarking volume-hiding STE/EMM constructions**, including the computational volume-hiding line initiated by **Kamara & Moataz (Eurocrypt 2019)**. ([ACM Digital Library][1])
+* **Implementing VH-EMM variants based on hashing techniques (incl. cuckoo hashing)** and evaluating their real-world efficiency/engineering tradeoffs, following later dynamic volume-hiding EMM work (e.g., Amjad et al.). ([ePrint Archive][2])
+* **Subliminal EXH (my work):** designing and implementing a queueing-theory–inspired mechanism to mitigate volume leakage under realistic query patterns.
+* **Multi-server volume-hiding settings:** studying distributed threat models, identifying an **impossibility result** under the volume-hiding definition we use, and proposing alternative construction ideas. This work is part of an ongoing submission tentatively titled *On the Cost of Volume Hiding Schemes*.
 
-- structured encryption (STE) scheme design
-- security models and proof-driven construction techniques
-- practical constructions with clearer security/efficiency tradeoffs
+As publications and artifacts mature, this page can be expanded with implementation notes, benchmarks, and reproducible evaluation results.
 
-As publications and artifacts mature, this page can be expanded with code, benchmarks, and notes.
