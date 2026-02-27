@@ -2,7 +2,7 @@
 layout: page
 title: Structured Encryption Scheme Design
 description: Research direction in searchable/structured encryption and efficient scheme design.
-img: /assets/img/ste_emm_architecture.jpg
+img: /assets/img/ste_emm_architecture.jpeg
 importance: 1
 category: research
 ---
