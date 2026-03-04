@@ -2,11 +2,12 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Selected research and product work.
-nav: true
+description: Temporarily hidden.
+nav: false
 nav_order: 3
-display_categories: [research, startup]
+display_categories: [research]
 horizontal: false
+published: false
 ---
 
 <!-- pages/projects.md -->

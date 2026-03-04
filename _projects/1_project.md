@@ -5,6 +5,7 @@ description: Research direction in searchable/structured encryption and efficien
 img: /assets/img/ste_emm_architecture.jpeg
 importance: 1
 category: research
+published: false
 ---
 This project page summarizes my ongoing PhD research in applied cryptography, focused on **structured encryption (STE)**, **encrypted multi-maps**, and **volume-hiding** systems.
 

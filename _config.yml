@@ -7,18 +7,17 @@ middle_name:
 last_name: Bahi
 
 contact_note: >
-  Best contact: amine.bahi@rabiata.com (industry) or amine.bahi@ens.psl.eu (academic).
+  Best contact: amine.bahi@ens.psl.eu.
   Open to research, consulting, and collaboration.
 
 description: >
-  PhD researcher in cryptography with the CASCADE team at Ecole normale superieure (ENS, Paris)
-  and member of the Encrypted Systems Lab at Brown University.
-  Interests: structured encryption, PIR/ORAM, volume-hiding systems, Post Quantum Security, quantitative trading.
+  PhD researcher in cryptography with the CASCADE team at Ecole normale superieure (ENS, Paris).
+  Interests: structured encryption, oblivious RAM (ORAM), privacy-preserving systems, quantitative trading.
 
 footer_text: >
   Built with Jekyll & al-folio · Hosted on GitHub Pages.
 
-keywords: cryptography, structured encryption, PIR, ORAM, volume-hiding, quantitative trading
+keywords: cryptography, structured encryption, oblivious RAM, privacy-preserving systems, quantitative trading
 lang: en
 icon: "🔐"
 

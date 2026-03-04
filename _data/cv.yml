@@ -7,8 +7,6 @@
       value: www.aminebahi.com
     - name: Academic Email
       value: amine.bahi@ens.psl.eu
-    - name: Industry Email
-      value: amine.bahi@rabiata.com
 
 - title: Current Roles
   type: time_table
@@ -17,14 +15,8 @@
       institution: CASCADE team, Ecole normale superieure (ENS), Paris
       year: Current
       description:
-        - Structured encryption (STE) scheme design, PIR/ORAM, and volume-hiding systems.
+        - Structured encryption (STE) scheme design and oblivious RAM (ORAM).
         - Privacy-preserving systems and proof-driven cryptographic design.
-    - title: Member
-      institution: Encrypted Systems Lab, Brown University
-      year: Current
-    - title: Co-founder & CTO
-      institution: Rabiata
-      year: Current
 
 - title: Research Interests
   type: nested_list
@@ -32,8 +24,7 @@
     - title: Applied Cryptography
       items:
         - Structured encryption (STE) scheme design
-        - PIR / ORAM
-        - Volume-hiding systems
+        - Oblivious RAM (ORAM)
     - title: Security and Systems
       items:
         - Security modeling and proof techniques
