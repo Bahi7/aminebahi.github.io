@@ -25,9 +25,6 @@ announcements:
 latest_posts:
   enabled: false
 ---
-
-I'm excited to announce that our paper "Resizable Oblivious RAM" has been accepted to EUROCRYPT 2026.
-
 I am a PhD researcher in cryptography at ENS Paris (Inria CASCADE team), co-advised by
 [Brice Minaud](https://www.di.ens.fr/brice.minaud/) and [Tarik Moataz](https://orochi89.github.io), whose guidance I value.
 
