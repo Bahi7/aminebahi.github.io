@@ -713,12 +713,16 @@ footer.sticky-bottom {
     }
   }
 
+  // Year headings: in the theme colour and left-aligned, so the grouping by year reads
+  // at a glance (the template's default paints them in the divider gray).
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-theme-color);
+    font-size: 1.75rem;
+    font-weight: 500;
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
-    text-align: right;
+    text-align: left;
   }
 
   ol.bibliography {
@@ -753,6 +757,14 @@ footer.sticky-bottom {
         .award {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
+        }
+
+        // The entry's year, under the venue badge
+        .year {
+          text-align: center;
+          font-size: 0.95rem;
+          color: var(--global-text-color);
+          margin-bottom: 0.5rem;
         }
       }
 
