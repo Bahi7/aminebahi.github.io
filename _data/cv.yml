@@ -3,42 +3,133 @@
   contents:
     - name: Full Name
       value: Amine Bahi
+    - name: Position
+      value: PhD researcher in cryptography, CASCADE team, École normale supérieure (ENS), Paris
+    - name: Email
+      value: <a href="mailto:amine.bahi@ens.psl.eu">amine.bahi@ens.psl.eu</a>
     - name: Website
-      value: www.aminebahi.com
-    - name: Academic Email
-      value: amine.bahi@ens.psl.eu
-
-- title: Current Roles
-  type: time_table
-  contents:
-    - title: PhD Researcher in Cryptography
-      institution: CASCADE team, Ecole normale superieure (ENS), Paris
-      year: Current
-      description:
-        - Structured encryption (STE) scheme design and oblivious RAM (ORAM).
-        - Privacy-preserving systems and proof-driven cryptographic design.
+      value: <a href="https://www.aminebahi.com">www.aminebahi.com</a>
+    - name: Full CV
+      links:
+        - name: Download PDF
+          link: /assets/pdf/Amine_Bahi_CV.pdf
 
 - title: Research Interests
   type: nested_list
   contents:
     - title: Applied Cryptography
       items:
-        - Structured encryption (STE) scheme design
+        - Structured encryption (STE) and encrypted multi-maps
         - Oblivious RAM (ORAM)
+        - Searchable symmetric encryption (SSE) and leakage analysis
     - title: Security and Systems
       items:
         - Security modeling and proof techniques
         - Privacy-preserving systems
         - Quantitative trading applications
 
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Cryptography
+      institution: École normale supérieure (ENS), Paris, France
+      department: CASCADE cryptography team
+      year: 2024–2027
+      description:
+        - "Topics: oblivious RAM (ORAM) and structured encryption."
+        - "Advisors: Brice Minaud and Tarik Moataz."
+    - title: MS in Computer Science
+      institution: Mohammadia School of Engineers (EMI), Rabat, Morocco
+      year: 2016–2019
+    - title: Preparatory Classes (CPGE)
+      institution: Classes Préparatoires aux Grandes Écoles, Rabat, Morocco
+      year: 2014–2016
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Research Intern
+      institution: Northeastern University, Boston, USA
+      year: 2023–2024
+      description:
+        - Designed and implemented a low-latency encrypted multi-map (EMM) in C++ with low-leakage and subliminal modes, integrating Path ORAM and queueing-theoretic techniques.
+    - title: Doctoral Researcher
+      institution: UM6P College of Computing, Marrakesh, Morocco
+      year: 2020–2023
+      description:
+        - Researched searchable symmetric encryption (SSE), structured encryption, and multi-server volume-hiding EMM constructions; evaluated efficiency/leakage trade-offs empirically.
+        - Implemented and benchmarked volume-hiding SSE schemes by extending the Clusion encrypted-search framework.
+        - Studied SSE workload and leakage statistics, Zipf-like keyword distributions, and links to equity-market microstructure; investigated prophet inequalities and secretary-problem optimal stopping.
+    - title: Research Intern
+      institution: Inria, Lyon, France
+      year: 2019
+      description:
+        - Integrated TFHE into an IoT healthcare activity-recognition system; implemented encrypted-inference circuits and optimized them through benchmarking.
+
+- title: Publications
+  type: list
+  contents:
+    - <b>On the Costs of Multi-Server Volume-Hiding</b> — Amine Bahi, Marilyn George, Seny Kamara, Tarik Moataz. <i>SCN 2026</i>.
+    - <b>Resizable Oblivious RAM</b> — Amine Bahi, Brice Minaud, Tarik Moataz. <i>EUROCRYPT 2026</i>.
+    - "<b>TIGRO: Trust Infrastructure for Grassroots Organizing via Grounded Digital Annotations</b> — Leah Namisa Rosenbloom, Seny Kamara, Zachary Espiritu, Tarik Moataz, Amine Bahi, John Wilkinson. <i>PETS 2026</i>."
+    - <b>Subliminal Encrypted Multi-Maps and Black-Box Leakage Absorption</b> — Amine Bahi, Seny Kamara, Tarik Moataz, Guevara Noubir. <i>IACR ePrint 2024/1708</i>.
+    - <b>Privacy-preserving IoT Framework for Activity Recognition in Personal Healthcare Monitoring</b> — Théo Jourdan, Antoine Boutet, Amine Bahi, Carole Frindel. <i>ACM Transactions on Computing for Healthcare, 2021</i>.
+    - See the <a href="/publications/">publications page</a> for links and BibTeX entries.
+
+- title: Talks
+  type: time_table
+  contents:
+    - title: On the Costs of Multi-Server Volume-Hiding
+      institution: SCN 2026, Amalfi, Italy
+      department: Conference presentation
+      year: Sep 2026
+    - title: Resizable Oblivious RAM
+      institution: MongoDB Crypto Research Talk
+      department: Invited talk
+      year: Jul 2026
+    - title: Resizable Oblivious RAM
+      institution: EUROCRYPT 2026, Rome, Italy
+      department: Conference presentation
+      year: May 2026
+    - title: Structured Encryption
+      institution: UM6P Doctoral Day 2022, Benguerir, Morocco
+      department: Presentation and poster
+      year: Jun 2022
+
+- title: Engineering Experience
+  type: time_table
+  contents:
+    - title: Software Engineering Intern
+      institution: Digiflow, Casablanca, Morocco (remote)
+      year: 2018
+      description:
+        - Developed enterprise workflows with AgilePoint, including expense-report processes and AI-based process routing.
+    - title: Software Engineering Intern
+      institution: Siprof S.A., Berrechid, Morocco
+      year: 2017
+      description:
+        - Built VBA tools for production-defect monitoring and asset management; designed supporting databases and visualizations.
+
+- title: Skills
+  type: map
+  contents:
+    - name: Programming
+      value: C++, Python, Java, VBA
+    - name: Cryptography
+      value: SSE, structured encryption, encrypted multi-maps, ORAM / Path ORAM, TFHE and homomorphic encryption
+    - name: Research
+      value: Clusion, cryptographic prototyping, benchmarking, leakage and performance analysis, probability, optimal stopping
+    - name: Languages
+      value: Arabic, French, English
+
 - title: Profiles
   type: map
   contents:
     - name: GitHub
-      value: github.com/bahi7
+      value: <a href="https://github.com/bahi7">github.com/bahi7</a>
     - name: ORCID
-      value: 0009-0009-6435-1719
+      value: <a href="https://orcid.org/0009-0009-6435-1719">0009-0009-6435-1719</a>
     - name: DBLP
-      value: dblp.org/pid/285/5616
+      value: <a href="https://dblp.org/pid/285/5616">dblp.org/pid/285/5616</a>
     - name: LinkedIn
-      value: linkedin.com/in/amine-bahi-6ba572145/
+      value: <a href="https://www.linkedin.com/in/amine-bahi-6ba572145/">linkedin.com/in/amine-bahi-6ba572145</a>

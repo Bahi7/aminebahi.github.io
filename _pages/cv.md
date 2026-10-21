@@ -4,8 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-description: Concise CV generated from local YAML data.
-cv_pdf: Bahi_Amine_CV.pdf
+description: Education, research experience, talks, and skills. The full CV is available as a PDF via the icon on the right.
+cv_pdf: Amine_Bahi_CV.pdf
 toc:
   sidebar: left
 ---

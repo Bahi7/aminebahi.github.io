@@ -1,9 +1,14 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"EUROCRYPT":
+  url: https://eurocrypt.iacr.org/2026/
 
-"PhysRev":
-  url: https://journals.aps.org/
+"PETS":
+  url: https://petsymposium.org/
 
-"Vision":
-  color: "#009f36"
+"SCN":
+  url: https://scn.unisa.it/
+
+"IACR ePrint":
+  url: https://eprint.iacr.org/
+
+"ACM Health":
+  url: https://dl.acm.org/journal/health

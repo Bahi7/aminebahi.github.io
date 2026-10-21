@@ -36,6 +36,7 @@ jobs:
           pip install jupyter nbconvert
       - name: Install deps
         run: |
+          sudo apt-get update && sudo apt-get install -y imagemagick
           bundle config set without 'development'
           bundle install --jobs 4 --retry 3
           npm ci || npm install

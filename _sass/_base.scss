@@ -1417,3 +1417,28 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+// News (about page and news page)
+
+.news {
+  .news-date {
+    width: 20%;
+    white-space: nowrap;
+    vertical-align: top;
+  }
+
+  .news-scrollable {
+    max-height: 60vw;
+  }
+
+  @media (max-width: 575.98px) {
+    .news-date {
+      width: auto;
+      padding-right: 1rem;
+    }
+
+    .news-scrollable {
+      max-height: none;
+    }
+  }
+}

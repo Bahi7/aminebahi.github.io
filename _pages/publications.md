@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Publications imported from DBLP and rendered with jekyll-scholar.
+description: Conference papers, journal articles, and preprints.
 nav: true
 nav_order: 2
 ---
