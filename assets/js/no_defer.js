@@ -1,7 +1,11 @@
 // add bootstrap classes to tables
 $(document).ready(function () {
+  // Follow the theme actually applied to the page (set by theme.js when dark mode is enabled).
+  // When dark mode is disabled the page is always light, so tables must stay light too,
+  // whatever the visitor's system preference is.
+  const pageIsDark = document.documentElement.getAttribute("data-theme") == "dark";
   $("table").each(function () {
-    if (determineComputedTheme() == "dark") {
+    if (pageIsDark) {
       $(this).addClass("table-dark");
     } else {
       $(this).removeClass("table-dark");
