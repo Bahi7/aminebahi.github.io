@@ -39,6 +39,24 @@ a.btncv:hover {
 }
 
 /*****************************
+ * CV institution logos
+ *****************************/
+
+div.cv-logo-wrap {
+  margin-top: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+img.cv-logo {
+  display: block;
+  max-height: 2.6rem;
+  max-width: 12rem;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/*****************************
  * CV TIME_TABLE styles
  *****************************/
 
